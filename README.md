@@ -1,3 +1,11 @@
+# Kubernetes Production Deployment Steps
+
+## Introduction
+
+This guide outlines the steps to deploy an application in a **production environment** using Kubernetes. It covers the creation of necessary Kubernetes resources such as namespaces, ConfigMaps, Secrets, deployments, and services. The following steps ensure that your application is properly configured, secure, and exposed to external traffic, making it ready for a production-grade environment.
+
+---
+
 ## Step 1: Create the Production Namespace
 
 ```bash
