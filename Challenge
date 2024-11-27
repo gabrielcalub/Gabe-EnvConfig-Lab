@@ -70,3 +70,8 @@ kubectl exec -it nginx-app-65968468b6-8c59n -n production -- /bin/bash
 ```
 
 ### Verify Environment Variables
+
+```bash
+echo $APP_ENV
+echo $DB_PASSWORD
+```
